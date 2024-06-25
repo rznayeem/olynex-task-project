@@ -1,0 +1,7 @@
+.image-container {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin-left: 70px;
+  margin-top: 68px;
+}
