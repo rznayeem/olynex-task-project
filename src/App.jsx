@@ -3,6 +3,7 @@ import './App.css';
 import Banner from './Banner/Banner';
 import ImageSlider from './ImageSlider/ImageSlider';
 import Navbar from './Navbar/Navbar';
+import OurProjects from './OurProjects/OurProjects';
 import OurServices from './OurServices/OurServices';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <ImageSlider></ImageSlider>
       <AboutCompany></AboutCompany>
       <OurServices></OurServices>
+      <OurProjects></OurProjects>
     </>
   );
 }

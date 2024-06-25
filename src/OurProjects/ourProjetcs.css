@@ -1,0 +1,150 @@
+.projects-container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 119px;
+  margin-top: 100px;
+  margin-bottom: 55px;
+}
+
+.projects-header > div > h1 {
+  color: #141d38;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  margin-top: 14px;
+}
+
+.projects-header > div > h3 {
+  color: #141d38;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  border-radius: 5px;
+  border: 1px solid #684df4;
+  padding: 6px;
+  width: max-content;
+}
+
+.projects-header p {
+  color: #737887;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  max-width: 537px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.card {
+  position: relative;
+  border-radius: 8px;
+  width: 250px;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  transition: width 0.3s ease;
+  overflow: hidden;
+}
+
+.card:first-child {
+  width: 670px;
+}
+
+.card:hover {
+  width: 670px;
+}
+
+.container:hover .card {
+  width: 250px;
+}
+
+.container .card:hover {
+  width: 670px;
+}
+
+.card-content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 116px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 40px 34px 40px;
+  box-sizing: border-box;
+  background: rgba(104, 77, 244, 0.9);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-content h3 {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  padding-bottom: 16px;
+}
+
+.card-content p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.card:first-child .card-content {
+  opacity: 1;
+}
+
+.container:hover .card:first-child .card-content {
+  opacity: 0 !important;
+}
+
+.card:hover .card-content {
+  opacity: 1 !important;
+}
+
+.card:nth-child(1) {
+  background-image: url('../assets/project1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card:nth-child(2) {
+  background-image: url('../assets/project2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card:nth-child(3) {
+  background-image: url('../assets/project3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.projects-btn {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
