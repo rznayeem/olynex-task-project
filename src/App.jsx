@@ -5,6 +5,7 @@ import ImageSlider from './ImageSlider/ImageSlider';
 import Navbar from './Navbar/Navbar';
 import OurProjects from './OurProjects/OurProjects';
 import OurServices from './OurServices/OurServices';
+import Testimonials from './Testimonials/Testimonials';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <AboutCompany></AboutCompany>
       <OurServices></OurServices>
       <OurProjects></OurProjects>
+      <Testimonials></Testimonials>
     </>
   );
 }
