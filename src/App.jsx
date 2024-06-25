@@ -1,6 +1,7 @@
 import AboutCompany from './AboutCompany/AboutCompany';
 import './App.css';
 import Banner from './Banner/Banner';
+import Blogs from './Blogs/Blogs';
 import ImageSlider from './ImageSlider/ImageSlider';
 import Navbar from './Navbar/Navbar';
 import OurProjects from './OurProjects/OurProjects';
@@ -19,6 +20,7 @@ function App() {
       <OurServices></OurServices>
       <OurProjects></OurProjects>
       <Testimonials></Testimonials>
+      <Blogs></Blogs>
     </>
   );
 }

@@ -1,0 +1,120 @@
+.blogs-container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blogs-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 52px;
+}
+
+.explore-blogs {
+  color: var(--Font-Color, #141d38);
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.blogs-description {
+  max-width: 663px;
+  color: #737887;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 14px;
+}
+
+.testimonial-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.testimonial-card {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 4px 16px 0px rgba(23, 28, 39, 0.12);
+}
+
+.card-body {
+  padding: 24px;
+}
+
+.date-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 27px;
+}
+
+.trend {
+  color: #141d38;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  border-radius: 5px;
+  border: 1px solid #737887;
+  padding: 3px 8px;
+}
+
+.date {
+  color: #737887;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.card-title {
+  color: #141d38;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 12px;
+}
+
+.card-description {
+  color: #737887;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.card-body button {
+  background: transparent;
+  border-radius: 32px;
+  border: 1px solid black;
+  color: black;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 14px 12px 18px;
+  margin-top: 23px;
+  cursor: pointer;
+}
+
+.card-body button:hover {
+  background: #684df4;
+  color: white;
+  border: 1px solid #684df4;
+}
+
+.btn-arrow {
+  height: 24px;
+  width: 24px;
+}
