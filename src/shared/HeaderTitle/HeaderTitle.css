@@ -1,0 +1,26 @@
+.header-container {
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  max-width: 526px;
+  margin: 0 auto;
+}
+
+.header-container h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  width: max-content;
+  margin: 0 auto;
+}
+
+.header-container h1 {
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  margin-top: 14px;
+}
