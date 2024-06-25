@@ -1,0 +1,137 @@
+.banner {
+  background-image: url('../assets/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -76px;
+  height: 100vh;
+  width: 100%;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 100%;
+  gap: 56px;
+  max-width: 1181px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 548px;
+}
+
+.banner-header {
+  width: max-content;
+  padding: 6px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.banner-content > h1 {
+  font-size: 58px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.banner-description {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.banner-button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner-button > button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  border-radius: 32px;
+  background: #684df4;
+  box-shadow: 0px 4px 18px 0px rgba(217, 39, 8, 0.12);
+  border: none;
+  padding: 12px 14px 12px 18px;
+}
+
+.banner-button > h2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.banner-button > h2 > span {
+  position: relative;
+}
+
+.play-btn {
+  position: absolute;
+  left: 4px;
+  top: 4px;
+}
+
+.image-layer-container {
+  position: absolute;
+  right: 150px;
+}
+
+.banner-img-container {
+  position: relative;
+}
+
+.img-border {
+  position: absolute;
+  left: -30px;
+  border-radius: 150px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  width: 496.085px;
+  height: 496.085px;
+  transform: rotate(-45deg);
+  z-index: 3;
+}
+
+.img-background {
+  position: absolute;
+  right: -40px;
+  border-radius: 150px;
+  border: 1px solid #3f37c9;
+  background: #3f37c9;
+  width: 496.085px;
+  height: 496.085px;
+  transform: rotate(-45deg);
+  z-index: 0;
+}
+
+.img-container {
+  position: relative;
+  width: 496px;
+  height: 496px;
+  object-fit: cover;
+  overflow: hidden;
+  transform: rotate(-45deg);
+  border-radius: 150px;
+}
+
+.img-container img {
+  transform: rotate(45deg);
+  position: absolute;
+  left: -40px;
+  top: -40px;
+  object-fit: fill;
+}
