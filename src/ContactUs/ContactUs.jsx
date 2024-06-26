@@ -63,7 +63,7 @@ const ContactUs = () => {
               <div className="input-container ic1">
                 <input className="input" type="number" placeholder=" " />
                 <div className="cut"></div>
-                <label className="placeholder">Email</label>
+                <label className="placeholder">Phone</label>
               </div>
             </div>
 
