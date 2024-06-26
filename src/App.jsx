@@ -3,6 +3,7 @@ import './App.css';
 import Banner from './Banner/Banner';
 import Blogs from './Blogs/Blogs';
 import ContactUs from './ContactUs/ContactUs';
+import Footer from './Footer/Footer';
 import ImageSlider from './ImageSlider/ImageSlider';
 import Navbar from './Navbar/Navbar';
 import Newsletter from './Newsletter/Newsletter';
@@ -25,6 +26,7 @@ function App() {
       <Blogs></Blogs>
       <ContactUs></ContactUs>
       <Newsletter></Newsletter>
+      <Footer></Footer>
     </>
   );
 }
