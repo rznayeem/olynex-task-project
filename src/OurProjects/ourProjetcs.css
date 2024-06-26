@@ -149,3 +149,40 @@
   margin-top: 40px;
   margin-bottom: 100px;
 }
+
+@media screen and (max-width: 1000px) {
+  .projects-header {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .card {
+    width: 350px;
+    height: 250px;
+  }
+  .container:hover .card {
+    width: 350px;
+  }
+  .card:first-child {
+    width: 350px;
+  }
+  .card:hover {
+    width: 350px;
+  }
+  .container .card:hover {
+    width: 350px;
+  }
+  .card-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .projects-btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}

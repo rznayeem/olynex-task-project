@@ -1,5 +1,4 @@
 import './newsletter.css';
-import arrow from '../assets/arrow.png';
 import { IoArrowForwardCircleOutline } from 'react-icons/io5';
 
 const Newsletter = () => {

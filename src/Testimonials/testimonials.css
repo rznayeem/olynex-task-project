@@ -68,3 +68,18 @@
   margin-top: 58px;
   padding-bottom: 100px;
 }
+
+@media screen and (max-width: 1000px) {
+  .testimonial-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .testimonial-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .swiper-card-container {
+    padding-bottom: 40px;
+  }
+}

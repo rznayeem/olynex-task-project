@@ -3,7 +3,7 @@ import './imageSlider.css';
 
 const ImageSlider = () => {
   return (
-    <div className=" bg-gradient-to-b from-[#FFE4D9] via-transparent to-[#FDE4D6] ">
+    <div className="slider-container">
       <Marquee speed={100}>
         <div className="image-container">
           <img src="https://i.imgur.com/3vJPXQw.png" alt="" />

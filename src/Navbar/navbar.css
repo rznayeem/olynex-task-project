@@ -50,3 +50,19 @@
   gap: 8px;
   align-items: center;
 }
+
+@media screen and (max-width: 1000px) {
+  .banner-content {
+    margin-top: 80px;
+    padding: 20px;
+  }
+  .banner-content > h1 {
+    font-size: 28px;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .nav-end {
+    display: none;
+  }
+}

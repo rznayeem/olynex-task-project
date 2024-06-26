@@ -82,3 +82,13 @@
   font-weight: 400;
   line-height: 26px;
 }
+
+@media screen and (max-width: 900px) {
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+}

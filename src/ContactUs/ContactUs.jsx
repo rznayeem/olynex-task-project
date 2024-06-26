@@ -3,7 +3,6 @@ import './constactUs.css';
 import arrow from '../assets/arrow.png';
 import Button from '../shared/Button/Button';
 import { IoCall } from 'react-icons/io5';
-import { CiLocationOn } from 'react-icons/ci';
 import { GoLocation } from 'react-icons/go';
 
 const ContactUs = () => {

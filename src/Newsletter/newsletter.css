@@ -65,3 +65,27 @@
   padding: 12px 14px 12px 18px;
   white-space: nowrap;
 }
+
+@media screen and (max-width: 1000px) {
+  .newsletter-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .newsletter-form {
+    flex-direction: column;
+  }
+  .newsletter-content h1 {
+    color: #fff;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    white-space: wrap;
+  }
+  .newsletter-input {
+    width: 300px;
+  }
+  .newsletter-content {
+    padding: 20px;
+  }
+}
