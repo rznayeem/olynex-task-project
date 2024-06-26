@@ -5,6 +5,7 @@ import Blogs from './Blogs/Blogs';
 import ContactUs from './ContactUs/ContactUs';
 import ImageSlider from './ImageSlider/ImageSlider';
 import Navbar from './Navbar/Navbar';
+import Newsletter from './Newsletter/Newsletter';
 import OurProjects from './OurProjects/OurProjects';
 import OurServices from './OurServices/OurServices';
 import Testimonials from './Testimonials/Testimonials';
@@ -23,6 +24,7 @@ function App() {
       <Testimonials></Testimonials>
       <Blogs></Blogs>
       <ContactUs></ContactUs>
+      <Newsletter></Newsletter>
     </>
   );
 }
