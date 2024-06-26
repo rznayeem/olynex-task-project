@@ -116,11 +116,12 @@
 }
 
 .container:hover .card:first-child .card-content {
-  opacity: 0 !important;
+  opacity: 0;
 }
 
 .card:hover .card-content {
   opacity: 1 !important;
+  transition-delay: 0.2s;
 }
 
 .card:nth-child(1) {
