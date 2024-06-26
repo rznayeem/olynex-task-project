@@ -56,22 +56,22 @@ const Footer = () => {
             <div className="mail">
               <FiPhoneCall className="icons" />
               <div>
-                <p>info@ihawmd.com</p>
-                <p>info@ihawmd.com</p>
+                <p>+1(954)8596712</p>
+                <p>+3(924)4596512</p>
               </div>
             </div>
             <div className="mail">
               <MdOutlineEmail className="icons" />
               <div>
-                <p>info@ihawmd.com</p>
-                <p>info@ihawmd.com</p>
+                <p>info@example.com</p>
+                <p>www.example.com</p>
               </div>
             </div>
             <div className="mail">
               <FiPhoneCall className="icons" />
               <div>
-                <p>info@ihawmd.com</p>
-                <p>info@ihawmd.com</p>
+                <p>+1(954)8596712</p>
+                <p>+3(924)4596512</p>
               </div>
             </div>
           </div>
